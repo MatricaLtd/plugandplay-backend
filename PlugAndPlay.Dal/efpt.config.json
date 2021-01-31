@@ -1,0 +1,77 @@
+﻿{
+   "ContextClassName": "PlugAndPlayContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Model",
+   "ProjectRootNamespace": "PlugAndPlay.Dal",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Drzava]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Klijent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Kontakt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mjesto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Partner]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ponuda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RefreshToken]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StavkaPonude]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StavkaPopust]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ugovor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserRole]",
+         "ObjectType": 0
+      }
+   ],
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false
+}
