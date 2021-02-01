@@ -106,9 +106,9 @@ namespace PlugAndPlay.Dal.QueryHandlers
 	        
 	        
             
-            [nameof(KontaktDto.KlijentId).ToLower()] = a => a.KlijentId,
+            [nameof(KontaktDto.KlijentId).ToLower()] = a => a.Klijent.Id,
 
-			[nameof(KontaktDto.PartnerId).ToLower()] = a => a.PartnerId,
+			[nameof(KontaktDto.PartnerId).ToLower()] = a => a.Partner.Id,
 
 		};
 

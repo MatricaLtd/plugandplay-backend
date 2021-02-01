@@ -9,6 +9,7 @@ namespace PlugAndPlay.Dal.Model
         public Klijent()
         {
             Ponuda = new HashSet<Ponuda>();
+            KontaktKlijent = new HashSet<Kontakt>();
         }
 
         public int Id { get; set; }
@@ -22,5 +23,7 @@ namespace PlugAndPlay.Dal.Model
         public virtual Mjesto Mjesto { get; set; }
         public virtual Partner Partner { get; set; }
         public virtual ICollection<Ponuda> Ponuda { get; set; }
+
+        public virtual ICollection<Kontakt> KontaktKlijent { get; set; }
     }
 }

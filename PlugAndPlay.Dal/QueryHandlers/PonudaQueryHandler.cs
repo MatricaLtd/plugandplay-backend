@@ -91,14 +91,20 @@ namespace PlugAndPlay.Dal.QueryHandlers
 	            
                 
 	                ugovorId = a.UgovorId,
+
+					ugovorName=a.Ugovor.Naziv,
 	            
 	            
                 
 	                partnerId = a.PartnerId,
+
+					partnerName=a.Partner.Naziv,
 	            
 	            
                 
 	                klijentId = a.KlijentId,
+
+					klijentName=a.Klijent.Naziv
 	            
 	            
                 

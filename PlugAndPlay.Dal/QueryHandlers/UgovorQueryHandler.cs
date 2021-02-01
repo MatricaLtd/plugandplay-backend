@@ -78,15 +78,19 @@ namespace PlugAndPlay.Dal.QueryHandlers
 	            
 	            
                 
-	                filename = a.Filename,
+	                //filename = a.Filename,
 	            
 	            
                 
 	                klijentId = a.KlijentId,
+
+					klijentName= a.Klijent.Naziv,
 	            
 	            
                 
 	                partnerId = a.PartnerId,
+
+					partnerName=a.Partner.Naziv,
 	            
 	            
                 
@@ -154,7 +158,7 @@ namespace PlugAndPlay.Dal.QueryHandlers
 	        
 	        
             
-	        [nameof(UgovorDto.filename).ToLower()] = a => a.Filename,
+	        //[nameof(UgovorDto.filename).ToLower()] = a => a.Filename,
 	        
 	        
             

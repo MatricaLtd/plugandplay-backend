@@ -263,9 +263,9 @@ namespace PlugAndPlay.Dal.Model
 
                 entity.Property(e => e.Commit).HasColumnType("decimal(9, 6)");
 
-                entity.Property(e => e.Filename)
-                    .IsRequired()
-                    .HasMaxLength(1);
+                //entity.Property(e => e.Filename)
+                //    .IsRequired()
+                //    .HasMaxLength(1);
 
                 entity.Property(e => e.Naplaceno).HasColumnType("decimal(9, 6)");
 

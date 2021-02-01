@@ -19,7 +19,7 @@ namespace PlugAndPlay.Dal.Model
         public int? KlijentId { get; set; }
         public int? PartnerId { get; set; }
 
-        public virtual Partner Klijent { get; set; }
+        public virtual Klijent Klijent { get; set; }
         public virtual Partner Partner { get; set; }
     }
 }

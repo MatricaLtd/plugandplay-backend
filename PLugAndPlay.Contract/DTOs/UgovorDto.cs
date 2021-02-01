@@ -68,13 +68,17 @@ namespace PlugAndPlay.Contracting.DTOs
 	
     
 	public int klijentId { get; set; }
-	
-	
-    
-	public int partnerId { get; set; }
-	
-	
 
-	
-  }
+		public string klijentName { get; set; }
+
+
+
+		public int partnerId { get; set; }
+
+		public string partnerName { get; set; }
+
+
+
+
+	}
 }

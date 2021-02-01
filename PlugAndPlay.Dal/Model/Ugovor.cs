@@ -26,10 +26,14 @@ namespace PlugAndPlay.Dal.Model
         public decimal UgovorKoličinaPopust { get; set; }
         public decimal AvansKolicina { get; set; }
         public string Napomena { get; set; }
-        public byte[] Filename { get; set; }
+        //public byte[] Filename { get; set; }
         public int KlijentId { get; set; }
         public int PartnerId { get; set; }
 
         public virtual ICollection<Ponuda> Ponuda { get; set; }
+
+
+        public virtual Klijent Klijent { get; set; }
+        public virtual Partner Partner { get; set; }
     }
 }

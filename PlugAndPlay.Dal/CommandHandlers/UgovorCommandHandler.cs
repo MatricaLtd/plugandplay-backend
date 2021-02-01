@@ -82,7 +82,7 @@ namespace PlugAndPlay.Dal.CommandHandlers
 	    
 	    
         
-	        item.Filename = request.filename;
+	        //item.Filename = request.filename;
 	    
 	    
         
@@ -159,7 +159,7 @@ namespace PlugAndPlay.Dal.CommandHandlers
 	    
 	    
         
-	        Filename = request.filename,
+	        //Filename = request.filename,
 	    
 	    
         

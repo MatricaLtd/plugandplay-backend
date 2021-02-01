@@ -85,17 +85,25 @@ namespace PlugAndPlay.Contracting.DTOs
 	
     
 	public int ugovorId { get; set; }
-	
-	
-    
-	public int partnerId { get; set; }
-	
-	
-    
-	public int klijentId { get; set; }
-	
-	
 
-	
-  }
+		public string ugovorName { get; set; }
+
+
+
+
+
+		public int klijentId { get; set; }
+
+		public string klijentName { get; set; }
+
+
+
+		public int partnerId { get; set; }
+
+		public string partnerName { get; set; }
+
+
+
+
+	}
 }
